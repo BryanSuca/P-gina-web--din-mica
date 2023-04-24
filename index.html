@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/javascript.js"></script>
+    <title>Formulario</title>
+    
+
+    
+</head>
+
+<body>
+    <h1>
+        <center>Curriculum Vitae Form</center>
+    </h1>
+    <form id="formulario" action="#">
+        <p>Nombres y Apellidos:</p>
+        <input class="field" type="text" size="35"  id="nombre" name="nombre" required> <br />
+
+        <p>Fecha de nacimiento:</p>
+        <input class="field" type="date"  id="fecha-nacimiento" name="fecha-nacimiento" required> <br />
+
+        <p>Ocupación:</p>
+        <input type="text" class="field" size="35"  id="ocupacion" name="ocupacion" required> <br />
+
+        <p>Teléfono:</p>
+        <input type="tel" class="field" size="35" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" name="telefono" id="telefono" required> <br />
+
+        <p>Correo electrónico:</p>
+        <input type="email" class="field" size="35" name="correoelectronico" id="correoelectronico" required> <br />
+
+        <p>Nacionalidad:</p>
+        <select class="field" name="nacionalidad" id="nacionalidad" required> <br />
+            <option value="">Seleccione una opción</option>
+            <option value="Perú">Perú</option>
+            <option value="Chile">Chile</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Argentina">Argentina</option>
+        </select>
+        <br />
+
+        <p>Idiomas:</p>
+        <input class="field" type="text" size="33" id="idm" name="idiomas">
+        <span onclick="newIdioma()" class="addBtn">+</span>
+        <ul id="idiomas">
+        </ul>
+
+        <p>Lenguajes de programación:</p>
+        <input type="radio" value="Python" name="opcion" id="opcion1" required> Python
+        <br />
+        <input type="radio" value="C++" name="opcion" id="opcion2" required> C++
+        <br />
+        <input type="radio" value="Java" name="opcion" id="opcion3" required> Java
+        <br />
+
+        <p>Aptitudes:</p>
+        <input class="field" type="text" size="33" id="aps" name="aptitudes" >
+        <span onclick="newAptitud()" class="addBtn">+</span>
+        <ul id="aptitudes" >
+        </ul>
+
+        <p>Habilidades:</p>
+        <input class="field" type="text" size="33" id="hb" name="habilidades" >
+        <span onclick="newHabilidad()" class="addBtn">+</span>
+        <ul id="habilidades">
+        </ul>
+
+        <p>Perfil:</p>
+        <textarea class="field" cols="35" name="perfil" id="perfil" required></textarea> 
+        <br />
+
+        <p>Experiencia laboral:</p>
+        <input class="field" type="text" size="33" id="el" name="experiencialaboral" >
+        <span onclick="newExperiencia()" class="addBtn">+</span>
+        <ul id="experiencia" >
+        </ul>
+
+        <p>Formación:</p>
+        <input class="field" type="text" size="33" id="for" name="formacion">
+        <span onclick="newFormacion()" class="addBtn">+</span>
+        <ul id="formacion" >
+        </ul>
+
+
+        <input type="submit" class="btn btn-silver" value="Enviar" onclick="guardarArchivo()" id="submit-button">
+        
+
+    </form> 
+       
+    
+</body>
+</html>

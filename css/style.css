@@ -1,0 +1,49 @@
+.btn {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.btn-silver {
+    color: white;
+    background-color: silver;
+}
+
+.btn-silver:hover {
+    background-color: silver
+}
+
+.btn-silver:active {
+    background-color: silver;
+}
+
+body {
+    font-family: Arial;
+    background-color: silver;
+}
+
+form {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 40px;
+    margin: 25px auto;
+    width: 300px;
+}
+
+.field {
+    border: solid 1px silver;
+    padding: 10px;
+}
+
+.field:focus {
+    border-color: black;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.close {
+    float: right;
+}
