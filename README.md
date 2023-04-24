@@ -2,6 +2,7 @@
 
 # Intregantes:
 • Bryan Suca Jaramillo
+
 • Karen Carazas Rodriguez
 
 # Instrucciones:
