@@ -8,7 +8,7 @@
 # Instrucciones:
 1) Abrir el archivo index.html
 2) Llenar los espacios en blanco, es requerido llenarlos todos.
-3) En los campos dinamicos se agrego un "+" para ir añadiendo en una lista las respuestas.
+3) En los campos dinamicos se agrego un "+" para ir añadiendo las respuestas y una "x" para eliminar las respuestas no deseadas.
 4) Al enviar el formulario se descargara un formulario.txt.
 
 # Realizacion del trabajo:
